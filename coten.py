@@ -1,7 +1,8 @@
-# Open kindle quote file
-#   Shuffle list and iterate through
-#       reject duplicates, empties and too-long quotes
-#   Create an image from the quote
+# Using code from https://github.com/lvzon/kindle-clippings/blob/master/extract-kindle-clippings.py
+#   Open kindle quote file
+#       Shuffle list and iterate through
+#           reject duplicates, empties and too-long quotes
+#       Create an image from the quote
 # 
 # Convert images into a video
 # Output and save the video
