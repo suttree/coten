@@ -18,6 +18,8 @@ Output to USB drive or run via a Raspberry Pi Zero?
 # Links:
 https://code-maven.com/create-images-with-python-pil-pillow
 
+https://stackoverflow.com/questions/1970807/center-middle-align-text-with-pil
+
 http://tsaith.github.io/combine-images-into-a-video-with-python-3-and-opencv-3.html
 
 https://stackoverflow.com/questions/44947505/how-to-make-a-movie-out-of-images-in-python/44948030
