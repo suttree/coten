@@ -1,5 +1,6 @@
 # Open kindle quote file
 #   Shuffle list and iterate through
+#       reject duplicates, empties and too-long quotes
 #   Create an image from the quote
 # 
 # Convert images into a video
