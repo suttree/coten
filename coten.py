@@ -16,6 +16,8 @@ pip install opencv-python
 Output to USB drive or run via a Raspberry Pi Zero?
 
 # Links:
+https://github.com/lvzon/kindle-clippings
+
 https://code-maven.com/create-images-with-python-pil-pillow
 
 https://stackoverflow.com/questions/1970807/center-middle-align-text-with-pil
