@@ -119,12 +119,6 @@ pp = pprint.PrettyPrinter(indent=4)
 # Pick a random quote
 import random
 q = random.choice(note_hashes)
-#pp.pprint(note_hashes)
-#pp.pprint(notes[a])
-#pp.pprint(pub_title[a])
-#pp.pprint(pub_author[a])
-#pp.pprint(pub_hashes)
-#pp.pprint(pub_hashes[a])
 
 # Find the book metadata
 key = False
