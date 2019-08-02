@@ -7,6 +7,7 @@ import getpass
 import sys
 
 
+# Clippings parser from https://github.com/lvzon/kindle-clippings/blob/master/extract-kindle-clippings.py
 infile = 'My Clippings.txt'
 
 note_sep = '=========='
