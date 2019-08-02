@@ -33,6 +33,8 @@ locations = {}
 types = {}
 dates = {}
 
+note_hashes = []
+
 existing_hashes = {}
 
 print('Processing clippings file', infile)
@@ -48,6 +50,7 @@ while line:
     result_title = regex_title.findall(key)    # Extract title and author
     line = mc.readline().strip()                # Read information line
     note_type, location, date = regex_info.findall(line)[0]    # Extract note type, location and date
+
     result_loc = regex_loc.findall(location)
     result_page = regex_page.findall(location)
 
@@ -76,7 +79,8 @@ while line:
         line = mc.readline().strip()
     
     note_hash = hashlib.sha256(note_text.strip().encode('utf8')).hexdigest()[:8]
-    
+    note_hashes.append(note_hash)
+
     if key not in pub_notes:
         pub_notes[key] = []
         pub_hashes[key] = []
@@ -105,14 +109,20 @@ while line:
     dates[note_hash] = datestr
         
     line = mc.readline().strip()
-
 mc.close()
 
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
-pp.pprint(notes)
-pp.pprint(locations)
-pp.pprint(types)
-pp.pprint(dates)
+#pp.pprint(notes)
+#pp.pprint(pub_title)
+#pp.pprint(pub_author)
+
+import random
+a = random.choice(note_hashes)
+pp.pprint(note_hashes)
+pp.pprint(notes[a])
+pp.pprint(pub_title[a])
+pp.pprint(pub_author[a])
 
 
+# pick a random key
