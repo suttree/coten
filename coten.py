@@ -111,18 +111,28 @@ while line:
     line = mc.readline().strip()
 mc.close()
 
+# For debugging
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
-#pp.pprint(notes)
-#pp.pprint(pub_title)
-#pp.pprint(pub_author)
+#import pdb; pdb.set_trace()
 
+# Pick a random quote
 import random
-a = random.choice(note_hashes)
-pp.pprint(note_hashes)
-pp.pprint(notes[a])
-pp.pprint(pub_title[a])
-pp.pprint(pub_author[a])
+q = random.choice(note_hashes)
+#pp.pprint(note_hashes)
+#pp.pprint(notes[a])
+#pp.pprint(pub_title[a])
+#pp.pprint(pub_author[a])
+#pp.pprint(pub_hashes)
+#pp.pprint(pub_hashes[a])
 
+# Find the book metadata
+key = False
+for k, v in pub_hashes.items():
+    for i in v:
+        if i == q:
+            key = k
 
-# pick a random key
+pp.pprint(notes[q])
+pp.pprint(pub_author[key])
+pp.pprint(pub_title[key])
