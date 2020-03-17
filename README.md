@@ -1,23 +1,12 @@
 # coten
 
-# Using code from https://github.com/lvzon/kindle-clippings/blob/master/extract-kindle-clippings.py
-#   Open kindle quote file
-#       Shuffle list and iterate through
-#           reject duplicates, empties and too-long quotes
-#       Create an image from the quote
-# 
-# Convert images into a video
-# Output and save the video
-
-# Setup:
-pip install virtualenv
-virtualenv env --python=python3.6
-source env/bin/activate
-pip install numpy
-pip install opencv-python
-
-# Questions:
-Output to USB drive or run via a Raspberry Pi Zero?
+.plan
+- Using code from https://github.com/lvzon/kindle-clippings/blob/master/extract-kindle-clippings.py
+-   Open kindle quote file
+-       Shuffle list and iterate through
+-           reject duplicates, empties and too-long quotes
+-       Create an image from the quote
+- Display the image on the screen (eink: https://github.com/pimoroni/inky)
 
 # Links:
 https://github.com/lvzon/kindle-clippings
@@ -31,3 +20,13 @@ http://tsaith.github.io/combine-images-into-a-video-with-python-3-and-opencv-3.h
 https://stackoverflow.com/questions/44947505/how-to-make-a-movie-out-of-images-in-python/44948030
 
 https://medium.com/@enriqueav/how-to-create-video-animations-using-python-and-opencv-881b18e41397
+
+# Setup:
+pip install virtualenv
+virtualenv env --python=python3.6
+source env/bin/activate
+pip install numpy
+pip install opencv-python
+
+# Questions:
+Output to USB drive or run via a Raspberry Pi Zero?
