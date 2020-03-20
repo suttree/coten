@@ -140,26 +140,30 @@ txt = notes[q]
 fontsize = 1  # starting font size
 
 import textwrap
-lines = textwrap.wrap(txt, width=40)
+lines = textwrap.wrap(txt, width=20)
 
 # portion of image width you want text width to be
-img_fraction = 1
+img_fraction = 0.5
 
 font = ImageFont.truetype("/Library/Fonts/Arial.ttf", fontsize)
-while font.getsize(txt)[0] < img_fraction*image.size[0]:
+while font.getsize(lines[0])[0] < img_fraction*image.size[0]:
     # iterate until the text size is just larger than the criteria
     fontsize += 1
     font = ImageFont.truetype("/Library/Fonts/Arial.ttf", fontsize)
 
-# optionally de-increment to be sure it is less than criteria
+# de-increment to be sure it is less than criteria
 fontsize -= 1
 font = ImageFont.truetype("/Library/Fonts/Arial.ttf", fontsize)
 
-print('final font size',fontsize)
+print('final font size', fontsize)
 
-text = textwrap.fill(txt, width=300)
+text = textwrap.fill(txt, width=20)
 
-draw.text((100, 100), text, font=font, fill="Black")
+# draw.text((200, 200), text, font=font, fill="Black")
 # draw.text((10, 25), txt, font=font)
+
+"\n".join(textwrap.wrap(txt, width=40))
+draw.text((200, 200), txt, font=font, fill="Black")
+
 
 image.save('images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')) # save it
