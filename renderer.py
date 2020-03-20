@@ -1,6 +1,25 @@
+from image_utils import ImageText
 from datetime import datetime, timedelta, timezone
 
 def create(quote):
+  # From https://gist.github.com/jasondilworth56/27764ae8ed2327a34ceebb06e75c30ea
+  from PIL import ImageFont, ImageDraw, Image
+
+  text = quote[0]
+  author = quote[1]
+  title = quote[2]
+
+  # font1 = ImageFont.truetype("/Library/Fonts/Arial.ttf", fontsize)
+  font = "/Library/Fonts/Arial.ttf"
+
+  img = ImageText((800, 600), background=(255, 255, 255, 200))
+
+  # img.write_text_box((300, 275), text, box_width=200, font_filename=font, font_size=15, color=color, place='justify')
+  img.fill_text_box((100,100), text, box_width=600, box_height=400, font_filename=font)
+
+  img.save('images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S'))
+
+def create_no(quote):
   # From https://stackoverflow.com/questions/4902198/pil-how-to-scale-text-size-in-relation-to-the-size-of-the-image
   from PIL import ImageFont, ImageDraw, Image
 
