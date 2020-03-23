@@ -20,11 +20,11 @@ def create(quote):
   img.fill_text_box((100,100), text, box_width=600, box_height=400, font_filename=font)
 
   meta_line = author + ', ' + title
-  img.write_text( (100, img.size[1] - 100), meta_line, font_filename=font, font_size=10)
+  img.write_text( (100, img.size[1] - 100), meta_line, font_filename=font, font_size=12)
 
   img.save('images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S'))
 
-def create_no(quote):
+def create_old(quote):
   # From https://stackoverflow.com/questions/4902198/pil-how-to-scale-text-size-in-relation-to-the-size-of-the-image
   from PIL import ImageFont, ImageDraw, Image
 
