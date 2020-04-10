@@ -22,7 +22,18 @@ def create(quote):
   meta_line = author + ', ' + title
   img.write_text( (100, img.size[1] - 100), meta_line, font_filename=font, font_size=12)
 
-  img.save('images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S'))
+  img = img.convert('RGB').convert('P', palette=Image.ADAPTIVE, colors=255)
+  img.save('images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S'), colors=255)
+
+  from inky import InkyWHAT
+  inky_display = InkyWHAT("black")
+  inky_display.set_border(inky_display.WHITE)
+
+  inky_display.set_image(img)
+  inky_display.show()
+
+
+
 
 def create_old(quote):
   # From https://stackoverflow.com/questions/4902198/pil-how-to-scale-text-size-in-relation-to-the-size-of-the-image
