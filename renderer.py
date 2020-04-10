@@ -1,3 +1,4 @@
+from inky import InkyWHAT
 from image_utils import ImageText
 from datetime import datetime, timedelta, timezone
 
@@ -6,6 +7,9 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
 def create(quote):
+  inky_display = InkyWHAT("black")
+  inky_display.set_border(inky_display.WHITE)
+
   # From https://gist.github.com/jasondilworth56/27764ae8ed2327a34ceebb06e75c30ea
   from PIL import ImageFont, ImageDraw, Image
 
@@ -21,7 +25,7 @@ def create(quote):
   img.fill_text_box((10, 10), text, box_width=380, box_height=280, font_filename=font)
 
   meta_line = author + ', ' + title
-  img.write_text( (10, img.size[1] - 10), meta_line, font_filename=font, font_size=12)
+  img.write_text( (10, inky_display.HEIGHT - 20), meta_line, font_filename=font, font_size=12)
 
   filename = 'images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
   img.save(filename)
@@ -29,9 +33,6 @@ def create(quote):
   img = Image.open(filename)
   img = img.quantize()
 
-  from inky import InkyWHAT
-  inky_display = InkyWHAT("black")
-  inky_display.set_border(inky_display.WHITE)
 
   inky_display.set_image(img)
   inky_display.set_border(inky_display.WHITE)
