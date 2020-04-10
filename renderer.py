@@ -18,10 +18,10 @@ def create(quote):
 
   img = ImageText((400, 300), background=(255, 255, 255, 200))
 
-  img.fill_text_box((50, 50), text, box_width=300, box_height=200, font_filename=font)
+  img.fill_text_box((10, 10), text, box_width=380, box_height=280, font_filename=font)
 
   meta_line = author + ', ' + title
-  img.write_text( (50, img.size[1] - 50), meta_line, font_filename=font, font_size=12)
+  img.write_text( (10, img.size[1] - 10), meta_line, font_filename=font, font_size=12)
 
   filename = 'images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
   img.save(filename)
@@ -34,6 +34,7 @@ def create(quote):
   inky_display.set_border(inky_display.WHITE)
 
   inky_display.set_image(img)
+  inky_display.set_border(inky_display.WHITE)
   inky_display.show()
 
 
