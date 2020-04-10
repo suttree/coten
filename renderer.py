@@ -18,14 +18,16 @@ def create(quote):
   title = quote[2]
 
   #font = "/usr/share/fonts/truetype/freefont/FreeMono.ttf"
-  font = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
+  #font = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
+  font = "/home/pi/.fonts/Roboto-Bold.ttf"
 
-  img = ImageText((400, 300), background=(255, 255, 255, 200))
+  img = ImageText((400, 300), background=(255, 255, 255, 255))
 
-  img.fill_text_box((10, 10), text, box_width=380, box_height=280, font_filename=font)
+  img.fill_text_box((10, 10), text, box_width=380, box_height=260, font_filename=font)
 
   meta_line = author + ', ' + title
-  img.write_text( (10, inky_display.HEIGHT - 20), meta_line, font_filename=font, font_size=12)
+  #img.write_text( (10, inky_display.HEIGHT - 20), meta_line, font_filename=font)
+  img.fill_text_box((10, inky_display.HEIGHT - 30), meta_line, box_width=380, box_height=30, font_filename=font)
 
   filename = 'images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
   img.save(filename)
@@ -35,7 +37,7 @@ def create(quote):
 
 
   inky_display.set_image(img)
-  inky_display.set_border(inky_display.WHITE)
+  inky_display.set_border(inky_display.BLACK)
   inky_display.show()
 
 
