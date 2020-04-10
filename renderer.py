@@ -13,17 +13,21 @@ def create(quote):
   author = quote[1]
   title = quote[2]
 
-  font = "/Library/Fonts/Arial.ttf"
+  #font = "/usr/share/fonts/truetype/freefont/FreeMono.ttf"
+  font = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
 
-  img = ImageText((800, 600), background=(255, 255, 255, 200))
+  img = ImageText((400, 300), background=(255, 255, 255, 200))
 
-  img.fill_text_box((100,100), text, box_width=600, box_height=400, font_filename=font)
+  img.fill_text_box((50, 50), text, box_width=300, box_height=200, font_filename=font)
 
   meta_line = author + ', ' + title
-  img.write_text( (100, img.size[1] - 100), meta_line, font_filename=font, font_size=12)
+  img.write_text( (50, img.size[1] - 50), meta_line, font_filename=font, font_size=12)
 
-  img = img.convert('RGB').convert('P', palette=Image.ADAPTIVE, colors=255)
-  img.save('images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S'), colors=255)
+  filename = 'images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
+  img.save(filename)
+
+  img = Image.open(filename)
+  img = img.quantize()
 
   from inky import InkyWHAT
   inky_display = InkyWHAT("black")
