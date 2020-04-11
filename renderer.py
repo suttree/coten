@@ -18,16 +18,23 @@ def create(quote):
   title = quote[2]
 
   #font = "/usr/share/fonts/truetype/freefont/FreeMono.ttf"
-  #font = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
-  font = "/home/pi/.fonts/Roboto-Bold.ttf"
+  font = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
+  #font = "/home/pi/.fonts/Roboto-Bold.ttf"
 
-  img = ImageText((400, 300), background=(255, 255, 255, 255))
+  #font = "/home/pi/.fonts/Bitter-Regular.otf"
+  #font = "/home/pi/.fonts/ufonts.com_rockwell.ttf"
+  #font = "/home/pi/.fonts/Bookerly/Bookerly-Regular.ttf"
+  #font = "/home/pi/.fonts/static/PlayfairDisplay-Regular.ttf"
+  font = "/home/pi/.fonts/PlayfairDisplay-VariableFont_wght.ttf"
 
-  img.fill_text_box((10, 10), text, box_width=380, box_height=260, font_filename=font)
+  img = ImageText((400, 300), background=(255, 255, 255))
+
+  img.fill_text_box((20, 20), text, box_width=340, box_height=250, font_filename=font)
 
   meta_line = author + ', ' + title
   #img.write_text( (10, inky_display.HEIGHT - 20), meta_line, font_filename=font)
-  img.fill_text_box((10, inky_display.HEIGHT - 30), meta_line, box_width=380, box_height=30, font_filename=font)
+  #img.fill_text_box((30, inky_display.HEIGHT - 40), meta_line, box_width=320, box_height=30, font_filename=font)
+  img.write_text_box((30, inky_display.HEIGHT - 30), meta_line, box_width=320, font_filename=font, font_size=15, place='right')
 
   filename = '/home/pi/src/coten/images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
   img.save(filename)
@@ -37,7 +44,7 @@ def create(quote):
 
 
   inky_display.set_image(img)
-  inky_display.set_border(inky_display.BLACK)
+  inky_display.set_border(inky_display.WHITE)
   inky_display.show()
 
 
