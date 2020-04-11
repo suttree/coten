@@ -8,6 +8,11 @@
 -       Create an image from the quote
 - Display the image on the screen (eink: https://github.com/pimoroni/inky)
 
+
+11/4/20
+- Review https://github.com/pimoroni/inky/blob/master/examples/clean.py
+- Update script to use https://github.com/pimoroni/inky/blob/master/examples/what/quotes-what.py
+
 # Installation:
 
 brew install python3
