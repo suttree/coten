@@ -29,7 +29,7 @@ def create(quote):
   #img.write_text( (10, inky_display.HEIGHT - 20), meta_line, font_filename=font)
   img.fill_text_box((10, inky_display.HEIGHT - 30), meta_line, box_width=380, box_height=30, font_filename=font)
 
-  filename = 'images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
+  filename = '/home/pi/src/coten/images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
   img.save(filename)
 
   img = Image.open(filename)

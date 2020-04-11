@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, timezone
 
 def fetch_kindle():
   # Clippings parser from https://github.com/lvzon/kindle-clippings/blob/master/extract-kindle-clippings.py
-  infile = 'My Clippings.txt'
+  infile = '/home/pi/src/coten/My_Clippings.txt'
 
   note_sep = '=========='
 
