@@ -36,7 +36,7 @@ def create(quote):
   meta_line = author + ', ' + title
   #img.write_text( (10, inky_display.HEIGHT - 20), meta_line, font_filename=font)
   #img.fill_text_box((30, inky_display.HEIGHT - 40), meta_line, box_width=320, box_height=30, font_filename=font)
-  img.write_text_box((30, inky_display.HEIGHT - 30), meta_line, box_width=320, font_filename=font, font_size=15, place='right')
+  img.write_text_box((30, inky_display.HEIGHT - 30), meta_line, box_width=320, font_filename=font, font_size=12, place='right')
 
   filename = '/home/pi/src/coten/images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
   img.save(filename)
