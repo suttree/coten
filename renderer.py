@@ -25,7 +25,9 @@ def create(quote):
   #font = "/home/pi/.fonts/ufonts.com_rockwell.ttf"
   #font = "/home/pi/.fonts/Bookerly/Bookerly-Regular.ttf"
   #font = "/home/pi/.fonts/static/PlayfairDisplay-Regular.ttf"
-  font = "/home/pi/.fonts/PlayfairDisplay-VariableFont_wght.ttf"
+  #font = "/home/pi/.fonts/PlayfairDisplay-VariableFont_wght.ttf"
+  font = "/home/pi/.fonts/FredokaOne-Regular.ttf"
+  #font = "/home/pi/.fonts/AmaticSC-Regular.ttf"
 
   img = ImageText((400, 300), background=(255, 255, 255))
 
