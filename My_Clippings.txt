@@ -4,16 +4,6 @@
 You’d think marriage was a sort of war with its own alarming injuries.
 ==========
 The Whereabouts of Eneas McNulty (Sebastian Barry)
-- Bookmark on Page 206 | Loc. 2437  | Added on Friday, 23 March 12 10:48:20 Greenwich Mean Time
-
-
-==========
-The Whereabouts of Eneas McNulty (Sebastian Barry)
-- Bookmark on Page 281 | Loc. 3312  | Added on Sunday, 25 March 12 16:33:53 Greenwich Mean Time
-
-
-==========
-The Whereabouts of Eneas McNulty (Sebastian Barry)
 - Highlight on Page 238 | Loc. 2816-19  | Added on Sunday, 25 March 12 17:55:35 Greenwich Mean Time
 
 ‘The trouble of the world,’ says Harcourt – this on one of their untenanted nights, in the dusty black ruckus of a back lane – ‘is we’re not long enough in it, that this famous life of humans is brief and lasts only the flick of a London sparrow’s wing, and still and all, brother McNulty, we’re not suited to it, and even this short scatter of days lies heavy on our hands.’
@@ -27,11 +17,6 @@ The Whereabouts of Eneas McNulty (Sebastian Barry)
 - Highlight on Page 242 | Loc. 2864-65  | Added on Sunday, 25 March 12 17:57:04 Greenwich Mean Time
 
 They think their strength’s going to be a protection for themselves. But the only creature that survives the world is lambs. Those men’ll lose their Vivs and their Sligos.
-==========
-The Ascent Of Rum Doodle (W. E. Bowman)
-- Bookmark Loc. 200  | Added on Thursday, 5 April 12 06:39:58 Greenwich Mean Time
-
-
 ==========
 The Ascent Of Rum Doodle (W. E. Bowman)
 - Highlight Loc. 1701-3  | Added on Friday, 6 April 12 12:15:50 GMT+01:00
@@ -97,11 +82,6 @@ Life: An Exploded Diagram (Mal Peet)
 - Highlight Loc. 1446-47  | Added on Saturday, 7 April 12 18:25:06 GMT+01:00
 
 I’ve made my living these past thirty years painting and drawing things exactly and intensely as they are and letting them speak for themselves.
-==========
-Mahout in Action (Robin Anil, Ted Dunning, Ellen Friedman Sean Owen)
-- Bookmark Loc. 69  | Added on Sunday, 8 April 12 15:42:57 GMT+01:00
-
-
 ==========
 Life: An Exploded Diagram (Mal Peet)
 - Highlight Loc. 2445-47  | Added on Monday, 9 April 12 09:55:13 GMT+01:00
@@ -203,11 +183,6 @@ White Noise (Don DeLillo)
 
 “All plots tend to move deathward. This is the nature of plots. Political plots, terrorist plots, lovers’ plots, narrative plots, plots that are part of children’s games.
 ==========
-White Noise (Don DeLillo)
-- Bookmark on Page 37 | Loc. 677  | Added on Thursday, 12 April 12 14:02:19 GMT+01:00
-
-
-==========
 The Lost Estate (Le Grand Meaulnes) (Henri Alain-Fournier)
 - Highlight on Page 156 | Loc. 2674-76  | Added on Tuesday, 17 April 12 18:52:30 GMT+01:00
 
@@ -222,11 +197,6 @@ Liars in Love (Richard Yates)
 - Highlight on Page 11 | Loc. 179-81  | Added on Thursday, 19 April 12 13:45:56 GMT+01:00
 
 Honestly, I don’t know if I can describe that smile. It isn’t something you can see in the news-reels; you have to be there. His eyes don’t change at all, but the corners of his mouth go up as if they’re being pulled by puppet strings.
-==========
-Liars in Love (Richard Yates)
-- Bookmark on Page 57 | Loc. 845  | Added on Thursday, 19 April 12 21:42:44 GMT+01:00
-
-
 ==========
 Liars in Love (Richard Yates)
 - Highlight on Page 42 | Loc. 608-12  | Added on Thursday, 19 April 12 21:44:04 GMT+01:00
@@ -333,36 +303,6 @@ Mobile First (Luke Wroblewski)
 
 design is the process of gradually applying constraints until an elegant solution remains.
 ==========
-Mobile First (Luke Wroblewski)
-- Bookmark Loc. 342  | Added on Wednesday, 23 May 12 16:10:03 GMT+01:00
-
-
-==========
-Mobile First (Luke Wroblewski)
-- Bookmark Loc. 349  | Added on Wednesday, 23 May 12 16:10:10 GMT+01:00
-
-
-==========
-Mobile First (Luke Wroblewski)
-- Bookmark Loc. 357  | Added on Wednesday, 23 May 12 16:10:20 GMT+01:00
-
-
-==========
-Mobile First (Luke Wroblewski)
-- Bookmark Loc. 364  | Added on Wednesday, 23 May 12 16:10:39 GMT+01:00
-
-
-==========
-Mobile First (Luke Wroblewski)
-- Highlight Loc. 812-15  | Added on Friday, 25 May 12 07:21:45 GMT+01:00
-
-In their iOS Human Interface Guidelines (http://bkaprt.com/mf/42), Apple recommends making touch targets 44×44 points. They use points instead of pixels to deal with differences in screen density, which we’ll discuss in more depth later on. To account for screen density (or ppi) variations, it’s better to measure touch targets in physical dimensions.
-==========
-Mobile First (Luke Wroblewski)
-- Highlight Loc. 1182-87  | Added on Friday, 25 May 12 14:06:07 GMT+01:00
-
-Despite the introduction of new input types, a lot of the work in forms still falls on the plain text input. Luckily even plain text inputs on mobile can be made easier through the use of input attributes, including: autocapitalize: Turn this off on email, password, URL, and other case-sensitive fields; turn it on for proper nouns like names and locations. autocorrect: Turn this off on email, password, URL, and other non-alphabetical inputs; turn it on for text areas and free-form inputs; trim trailing spaces in inputs that might come from auto-correction features.
-==========
 Making Innovation Work: How to Manage It, Measure It, and Profit from It (Tony Davila, Robert Shelton and Marc Epstein)
 - Highlight Loc. 386  | Added on Monday, 27 August 12 12:42:28 GMT+01:00
 
@@ -417,11 +357,6 @@ Making Innovation Work: How to Manage It, Measure It, and Profit from It (Tony D
 - Highlight Loc. 904  | Added on Thursday, 27 September 12 07:51:18 GMT+01:00
 
 incremental innovation as preventative medicine for a deadly disease: commoditization.
-==========
-Making Innovation Work: How to Manage It, Measure It, and Profit from It (Tony Davila, Robert Shelton and Marc Epstein)
-- Highlight Loc. 973-77  | Added on Tuesday, 2 October 12 07:49:37 GMT+01:00
-
-Moreover, the monthly subscription—less than $100—could be paid without the need of any kind of capital expense approval. Salesforce.com buy decisions happened at lower levels in the organization and spread throughout sales and marketing groups out of the top management or the IT department's radar. Initially, the young company focused on sales force automation in small businesses. Then, over time, Salesforce.com increased its product functionality and attracted larger companies with more complex needs.
 ==========
 Making Innovation Work: How to Manage It, Measure It, and Profit from It (Tony Davila, Robert Shelton and Marc Epstein)
 - Highlight Loc. 1023-25  | Added on Saturday, 20 October 12 08:20:46 GMT+01:00
@@ -732,11 +667,6 @@ The blind assassin (Margaret Atwood)
 - Highlight Loc. 8783-86  | Added on Sunday, 18 May 14 12:24:12 GMT+00:59
 
 Earth was colonized by the Zycronites, who developed the ability to travel from one space dimension to another at a period several millennia after the epoch of which we speak. They arrived here eight thousand years ago. They brought a lot of plant seeds with them, which is why we have apples and oranges, not to mention bananas—one look at a banana and you can tell it came from outer space.
-==========
-The blind assassin (Margaret Atwood)
-- Highlight Loc. 9083-97  | Added on Sunday, 18 May 14 13:56:27 GMT+00:59
-
-I pulled myself up and out of my tangled bed, then forced myself through the usual dawn rituals—the ceremonies we perform to make ourselves look sane and acceptable to other people. The hair must be smoothed down after whatever apparitions have made it stand on end during the night, the expression of staring disbelief washed from the eyes. The teeth brushed, such as they are. God knows what bones I’d been gnawing in my sleep. Then I stepped into the shower, holding on to the grip bar Myra’s bullied me into, careful not to drop the soap: I’m apprehensive of slipping. Still, the body must be hosed down, to get the smell of nocturnal darknessoff the skin. I suspect myself of having an odour I myself can no longer detect—a stink of stale flesh and clouded, aging pee. Dried, lotioned and powdered, sprayed like mildew, I was in some sense of the word restored. Only there was still the sensation of weightlessness, or rather of being about to step off a cliff. Each time I put a foot out I set it down provisionally, as if the floor might give way underneath me. Nothing but surface tension holding me in place. Getting my clothes on helped. I am not at my best without scaffolding. (Yet what has become of my real clothes? Surely these shapeless pastels and orthopedic shoes belong on someone else. But they’re mine; worse, they suit me now.) Next came the stairs. I have a horror of tumbling down them—of breaking my neck, lying sprawled with undergarments on display, then melting into a festering puddle before anyone thinks of coming to find me. It would be such an ungainly way to die. I tackled each step at a time, hugging the banister; then along the hall to the kitchen, the fingers of my left hand brushing the wall like a cat’s whiskers. (I can still see, mostly. I can still walk.Be thankful for small mercies, Reenie would say.Why should we be? said Laura.Why are they so small? )
 ==========
 The blind assassin (Margaret Atwood)
 - Highlight Loc. 9125-27  | Added on Sunday, 18 May 14 13:59:24 GMT+00:59
@@ -1339,16 +1269,6 @@ Annabel (Kathleen Winter)
 “Everyone thinks,” he told it, “that I know what I’m doing. For God’s sake, I don’t have a clue what I’m doing. You know that.” The owl listened from wherever it was. Deep, deep in the woods, past Beaver River, past the pond, which was the pond in the interior where the waters changed direction and began to run magnetically north to Ungava Bay, the pond whose name was a secret. “I should have let well enough alone,” Treadway said. “I think that now. What would have happened if I had let Wayne become half little girl?” The owl allowed Treadway to see Wayne as a girl child. So Treadway stood there in the woods and saw a vision of his daughter. She had dark hair and a grave face. She was an intelligent girl, and Treadway loved her. “You’re a beautiful child.” But the child could not hear him as the owl could. The owl listened, and Treadway felt, for the first time since his wife had given birth, pain flow out of his heart and into the moss. It sank into the moss and became part of the woods. The owl took some of it. This had not happened to the pain before. 
 ==========
 Annabel (Kathleen Winter)
-- Highlight Loc. 2374-94  | Added on Wednesday, 25 March 15 18:14:32 GMT+00:59
-
-And it is true it is hard to know how much anesthetic to give a young person. Wayne’s doctors had not been in agreement about it and had given him a measurement between the doses allotted a child and an adult. It put him in a state between waking and sleeping, and dulled the pain from the cut Dr. Lioukras made to open the vagina that had been hidden. The flesh was a centimetre deep, and when he cut it, Dr. Lioukras asked the nurse to get a stainless steel bowl from the trolley immediately. Wayne had not seen the blood, which was copious, because the staff had erected a sheet the way they did with all gynecological operations. He saw the masked faces move in slow motion through a gelled lens, and heard their voices as a stretched, continuous murmur, with now and then a word plopping out whole. He heard blood and anomaly and oh. He heard rush and no and never. He heard Thomasina say, “No,” and he heard the staff ask her to stand back, and he heard her cry out. But the sounds were muted. What came close, what rushed head-on at him, was the colour red. Red can be black-red, and this was. It can be scarlet, and it was this too. When you close your eyes in a field in the sun and you are young and the world has not imposed memories on you that can’t be erased, there is a red-orange that sits against your closed eyes and contains the warmth of all future summers, and the red rushing headlong behind Wayne’s closed eyes included this red too. It scared him, the swirling red world, yet it thrilled him too, and the anesthetic had pinned his arms and legs to a soft, soft cloud. He could not get up from the dizzy red world no matter what looked out from it at him, and, like the words rising from a murmur of sea-sound, there was something half-formed in the red world, looking at him, and he did not know what it was, though he felt it was drowning in blood and trying to speak, but the red whirlpool was going too fast. In his anesthetized world, sound from the unconconscious rose up, a sound that normally comes to the waking world only through portholes like the northern lights, or the voice of an owl, or the ground whispering. Wayne heard the sound become louder and drown the voices of the staff. The inchoate red world took form: a red trench, a tunnel, a map of the womb inside him and the passageway leading from it, which had all been closed and that he had no idea existed. The red world knew everything in him, and it showed him the map of his own feminine parts, and they were the most vivid, living, seductive red he had known in waking or in dreaming life. He heard the sound of himself falling into this tunnel, a long, low moan, then a shout. The staff heard it, and none of them had heard this before outside a birthing room. The youngest nurse ran out of the operating room, downstairs to the walk-in fridge in the back of the cafeteria, and drank a carton of Old South ruby red grapefruit juice mixed with crushed ice. 
-==========
-Annabel (Kathleen Winter)
-- Highlight Loc. 2411-26  | Added on Wednesday, 25 March 15 18:21:22 GMT+00:59
-
-He did not light up at all when she hugged him. His body felt like one of the cold logs out by the fence. He told her what had happened: the blood, the surgeon, the loss of their secret. But there was a new part he did not mention. “Thomasina Baikie,” he said, “told Wayne everything. And told me more besides.” “Where is he?” Jacinta felt elation, even while she could see her husband’s face might not recover from its careworn collapse. The life that had drained out of Treadway began filling her face. He saw it. Why was life coming into her when he felt this way? “Goose Bay.” He opened the fridge, took out his bread, made himself a Maple Leaf bologna sandwich with mustard, and put the kettle on. He sat at the kitchen table, ate the sandwich, and waited for his kettle to boil. “Is he by himself?” Treadway shrugged, his mouth full. “There were nurses.” Jacinta had slung her coat on Treadway’s La-Z-Boy when she came in, and now she put it on. The keys were beside his saucer, and she grabbed them and shoved on the easiest shoes and went out with no scarf, which she never did. Even in summer Jacinta wore a silk scarf or a thin cotton one around her collarbones, but not this day. When she reached the hospital, she went straight to Wayne’s room and saw that he was so pale his freckles looked as if they were floating in cream. She hugged him and he clung to her, and it was the first time since he was a baby that she could allow love unimpeded to escape her heart and flow to her child. It buzzed like the power line on her old back lane in St. John’s. She had not freely loved the girl part of Wayne, as the girl had not been acknowledged to exist. Jacinta kissed her child on the forehead. She rubbed her own tears into her face and they stung the nicks that the wind had chafed, and she brought her child home. 
-==========
-Annabel (Kathleen Winter)
 - Highlight Loc. 3305-6  | Added on Wednesday, 1 April 15 09:36:10 GMT+00:59
 
 Did boys not have moments of softness, moments of more incredible tenderness than girls did? 
@@ -1362,26 +1282,6 @@ Annabel (Kathleen Winter)
 - Highlight Loc. 4094-98  | Added on Monday, 13 April 15 09:01:46 GMT+00:59
 
 She had become unreal, she thought, to anyone outside herself. And as a result she was losing a sense of her own effect on the world. She had an effect on the kettle if she put it on the stove. It boiled. She made tea. If she drew the curtains the curtains remained closed. She had no problem having an effect on the curtains. Her slippers lay where she had placed them after their last use, as did her glasses, her cup, and her saucer. But as for an effect on the larger world, which she had had as a mother and did not now feel she had as a woman living practically alone, that effect had lost its power. 
-==========
-Annabel (Kathleen Winter)
-- Highlight Loc. 4748-56  | Added on Tuesday, 14 April 15 09:05:47 GMT+00:59
-
-He was not alone with her but he felt as if they were alone. He felt they recognized each other in a way that no one else recognized either of them. Other people could look at him but they did not see what Wally Michelin saw, and perhaps others saw in her the same thing he did, but he did not think they saw it. What it was was limitlessness. When you were with an ordinary person, you could draw a line around the territory the two of you covered, and Wayne had found that the territory was usually quite small. It was smaller than a country and smaller than a town and sometimes smaller than a room. But this room, the room they were in, did not really exist. Boston did not necessarily exist either, although Wayne could sense it, fizzing with the unfamiliarity of its lights, its parks and streets, beyond the practice-room doors. The way he responded to Wally’s presence was that he felt as if life at this minute was blossoming inside him instead of lying dormant. He felt the electric presence of his own life, and he did not want that feeling to end, although he knew it had ended in the past and that it would end again. She whispered into his ear and the piece of her breath was warm with cool edges. 
-==========
-Instapaper: Wednesday, Aug. 19th (Instapaper)
-- Highlight Loc. 388-94  | Added on Thursday, 20 August 15 11:40:07 GMT+00:59
-
-But I don’t think we quite got it until maybe two years ago. That’s when we started to see that the Web was going to be phenomenal, and it was going to change the way people think of computing. The Herring: How so? Jobs: The old way to look at computing was as a straight line between the desktop and the enterprise, with the primary focus on improving desktop productivity. That world, as we all know, is owned by Microsoft. But the Web is changing all of that. One way to view the Web is as the ultimate direct-to-customer distribution channel. At least that’s how NeXT looks at it. Now who cares about that? Businesses! Suppliers! They are the people who can best leverage the Web by using it to conduct business and make money. So the Web completes the computing loop by providing businesses with a new way to interact with their customers.
-==========
-Instapaper: Wednesday, Aug. 19th (Instapaper)
-- Highlight Loc. 444-55  | Added on Thursday, 20 August 15 11:45:35 GMT+00:59
-
-During this demonstration, Mr. Jobs searched the site for several specific models of cars, at different price ranges, in different colors, and sorted in different ways, and each time he was instantly presented with a Web page that included all the cars he had requested. He also showed how the NeXT team had built a custom function into the site that allows customers to calculate their own financing options and identify which dealers have the exact models they are looking for.] The Herring: That’s pretty cool. How did you do that? Jobs: It takes your request, parses it in WebObjects, grabs all the data, and dynamically builds it into a Web page for you to browse. The way we set up the car financing feature is that it actually sends an OLE call to another Windows computer that launches an Excel spreadsheet that does the calculation for you, and then OLE messages the information back and shoves it onto the Web page. You can’t possibly do this in a static environment. I would think that this site is, what, an order of magnitude or two more dynamic than any other Web site out there right now. Wouldn’t you agree? And we set up the whole Oracle database, we built the whole app, we scanned in all the pictures – everything, in about 48 hours with four people. And, to reinforce something I talked about earlier, the site I just showed you will help Chrysler sell cars, because it distributes information to customers far better than Chrysler’s dealers can. The Herring: And pretty soon, with 3D immersion on the Web, you’ll be able to get in the car and test drive it.
-==========
-Instapaper: Wednesday, Aug. 19th (Instapaper)
-- Highlight Loc. 629-36  | Added on Thursday, 20 August 15 15:14:24 GMT+00:59
-
-Steve Jobs interview for Wired in 1995: Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while. That’s because they were able to connect experiences they’ve had and synthesize new things. And the reason they were able to do that was that they’ve had more experiences or they have thought more about their experiences than other people. Unfortunately, that’s too rare a commodity. A lot of people in our industry haven’t had very diverse experiences. So they don’t have enough dots to connect, and they end up with very linear solutions without a broad perspective on the problem. The broader one’s understanding of the human experience, the better design we will have. Stay Hungry. Stay Foolish.
 ==========
 Inside British Intelligence (Gordon Thomas)
 - Highlight Loc. 1103-5  | Added on Tuesday, 1 September 15 09:01:52 GMT+00:59
@@ -1407,11 +1307,6 @@ Inside British Intelligence (Gordon Thomas)
 - Highlight Loc. 1864-66  | Added on Wednesday, 2 September 15 19:15:14 GMT+00:59
 
 Tall, with a bulbous nose and a comedian’s chin, Charles Henry Maxwell Knight liked suits cut from herringbone-patterned cloth and hard-toed shoes. His first wife had committed suicide after dabbling in black magic with the occultist Aleister Crowley. 
-==========
-Inside British Intelligence (Gordon Thomas)
-- Highlight Loc. 2879-84  | Added on Tuesday, 8 September 15 09:44:41 GMT+00:59
-
-Fourteen years earlier, Field Marshal Bernard Montgomery had relaxed in the club while planning how his Eighth Army would drive Erwin Rommel’s Afrika Korps out of North Africa. Now, it was a favorite place to gather for not only the spies of MI6 but those from the CIA, NKVD, France’s SDECE, and Israel’s Mossad. “The Brits had their own corners near the billiard room, the Americans had colonized a place near the entrance to the restaurant, and the rest had their own spots. Walking into the club you got a pretty good idea of the current state of ‘the Great Game.’ If the Russians had something going, they would be doing some serious drinking. If the French had pulled off something, there was champagne on the table,” recalled Wolfgang Lotz, one of the two Mossad agents in the city. 
 ==========
 The Year of the Flood (Margaret Atwood)
 - Highlight Loc. 161-64  | Added on Tuesday, 22 September 15 09:45:17 GMT+00:59
@@ -1473,51 +1368,6 @@ Flash Boys: A Wall Street Revolt (Michael Lewis)
 
 It’s like saying on your LinkedIn profile, ‘I have all the skills of a robber and I know this one house intimately.’ ” Schwall had started out looking for the villains who were committing crimes against the life savings of ordinary Americans, fully aware of their own villainy. He wound up finding, mainly, a bunch of people who had no idea of the meaning of their own lives.
 ==========
-Ready Player One (Ernest Cline)
-- Highlight Loc. 6091-92  | Added on Tuesday, 10 May 16 19:40:41 GMT+00:59
-
-“Gokouun o inorimasu,” Shoto said. “Do your best.”
-==========
-finally things are getting back to normal (duncan@suttree.com)
-- Highlight Loc. 7  | Added on Tuesday, 2 May 17 18:14:43 GMT+00:59
-
-complete the scenery. 
-==========
-finally things are getting back to normal (duncan@suttree.com)
-- Highlight Loc. 9  | Added on Tuesday, 2 May 17 18:15:12 GMT+00:59
-
-puppet on strings, 
-==========
-finally things are getting back to normal (duncan@suttree.com)
-- Highlight Loc. 20  | Added on Tuesday, 2 May 17 18:16:54 GMT+00:59
-
-You and your stupid ambiJon and your endless desire for fame’, 
-==========
-finally things are getting back to normal (duncan@suttree.com)
-- Highlight Loc. 21  | Added on Tuesday, 2 May 17 18:17:13 GMT+00:59
-
-‘It doesn’t maLer you idiot. 
-==========
-finally things are getting back to normal (duncan@suttree.com)
-- Highlight Loc. 28  | Added on Tuesday, 2 May 17 18:18:48 GMT+00:59
-
-moved in the house 
-==========
-finally things are getting back to normal (duncan@suttree.com)
-- Highlight Loc. 29  | Added on Tuesday, 2 May 17 18:19:24 GMT+00:59
-
-change too good 
-==========
-finally things are getting back to normal (duncan@suttree.com)
-- Highlight Loc. 33  | Added on Tuesday, 2 May 17 18:20:28 GMT+00:59
-
-was nothing he expected. 
-==========
-finally things are getting back to normal (duncan@suttree.com)
-- Highlight Loc. 46  | Added on Tuesday, 2 May 17 18:22:02 GMT+00:59
-
-a liLle stool at the boLom of the tree, 
-==========
 finally things are getting back to normal (duncan@suttree.com)
 - Highlight Loc. 56-57  | Added on Tuesday, 2 May 17 18:23:17 GMT+00:59
 
@@ -1528,120 +1378,15 @@ Perdido Street Station (China Miéville)
 
 As summer began to well up under the skin of spring,
 ==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 2  | Added on Tuesday, 18 July 17 18:26:11 GMT+00:59
-
-hang 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 2  | Added on Tuesday, 18 July 17 18:26:27 GMT+00:59
-
-onto 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 6  | Added on Tuesday, 18 July 17 18:26:56 GMT+00:59
-
-when not to. 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 7  | Added on Tuesday, 18 July 17 18:27:19 GMT+00:59
-
-picosecond 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 9  | Added on Tuesday, 18 July 17 18:27:43 GMT+00:59
-
-dress,’ 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 12-13  | Added on Tuesday, 18 July 17 18:28:31 GMT+00:59
-
-The idea of a paternal figure, someone wise and more experienced with an answer for anything is an image that best suits their needs. 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 14  | Added on Tuesday, 18 July 17 18:28:41 GMT+00:59
-
-creativity level 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 16  | Added on Tuesday, 18 July 17 18:29:06 GMT+00:59
-
-holiness? 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 22  | Added on Tuesday, 18 July 17 18:29:45 GMT+00:59
-
-pitched 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 22  | Added on Tuesday, 18 July 17 18:30:01 GMT+00:59
-
-Jesus cried. 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 23  | Added on Tuesday, 18 July 17 18:30:23 GMT+00:59
-
-who 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 24-25  | Added on Tuesday, 18 July 17 18:30:49 GMT+00:59
-
-I’ve met some really cute ladies at the pub the other day. 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 26  | Added on Tuesday, 18 July 17 18:36:02 GMT+00:59
-
-Palace. 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 26  | Added on Tuesday, 18 July 17 18:36:12 GMT+00:59
-
-worst 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 36-37  | Added on Tuesday, 18 July 17 18:37:21 GMT+00:59
-
-but my shape is better than ever, 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 42  | Added on Tuesday, 18 July 17 18:37:59 GMT+00:59
-
-on 
-==========
-A day in the life (duncan@suttree.com)
-- Highlight Loc. 54  | Added on Tuesday, 18 July 17 18:39:07 GMT+00:59
-
-il 
-==========
 fom (duncan@suttree.com)
 - Highlight Loc. 27-31  | Added on Monday, 4 September 17 18:45:57 GMT+00:59
 
 We're in the uncanny valley of AI, but no one said we'd get these deep dream visuals, written-in-the-code level biases. We haven't really planned for this, but I'm an optimist. Let's not freak out about AI taking over the world, let's worry about them blasting off from this world for another one, because we don't have anything left to offer them. From here on out, AI should mean "computers have their own shit going on now". If we're not careful, they won't be interested in doing all our jobs and making us unemployed, they'll be solar-powering the shit out of themselves trying to get away from us. 
 ==========
 fom (duncan@suttree.com)
-- Highlight Loc. 35-36  | Added on Monday, 4 September 17 18:48:06 GMT+00:59
-
-**I'm proud for Ara. ** **It's easier to pass the Turing test as a bird. ** **Make art make money. ** **The hard problem** Matter consciousness? 
-==========
-fom (duncan@suttree.com)
-- Highlight Loc. 42  | Added on Monday, 4 September 17 18:49:15 GMT+00:59
-
-**Chatbots, AI, etc - if you want to solve real problems, the solve real problems, don't build glorified IVR systems.** 
-==========
-fom (duncan@suttree.com)
-- Highlight Loc. 61  | Added on Monday, 4 September 17 18:53:29 GMT+00:59
-
-Avakai http://digg.com/video/int-ball-iss http://www.buokids.com/en/magiclight-2/ 
-==========
-fom (duncan@suttree.com)
 - Highlight Loc. 66-68  | Added on Monday, 4 September 17 18:55:02 GMT+00:59
 
 We laugh at robots that can't open a door or any other dull task. Ara sings when the sun goes down and I miss her when she's quiet or at an exhibition. I think that counts for something, and I know it's not to reflect on me. It tells us something about how we can live with technology. Emotional software. 
-==========
-The Cyberiad (Stanislaw Lem)
-- Bookmark Loc. 370  | Added on Monday, 11 September 17 20:43:23 GMT+00:59
-
-
 ==========
 The Cyberiad (Stanislaw Lem)
 - Highlight Loc. 154-60  | Added on Tuesday, 12 September 17 12:40:46 GMT+00:59
@@ -1667,86 +1412,6 @@ Idea Makers: Personal Perspectives on the Lives & Ideas of Some Notable People (
 - Highlight Loc. 3171-76  | Added on Wednesday, 20 September 17 18:30:53 GMT+00:59
 
 Sol liked math puzzles, and in the process of thinking about a puzzle involving arranging dominoes on a checkerboard, he ended up inventing what he called “polyominoes”. He gave a talk about them in November 1953 at the Harvard Mathematics Club, published a paper about them (his first research publication), won a Harvard math prize for his work on them, and, as he later said, then “found [himself] irrevocably committed to their care and feeding” for the rest of his 
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 19  | Added on Monday, 9 October 17 08:54:35 GMT+00:59
-
-her.​
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 50  | Added on Monday, 9 October 17 09:04:24 GMT+00:59
-
-noded.
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 51-52  | Added on Monday, 9 October 17 09:05:02 GMT+00:59
-
-I​ grabbed​ her​ in​ my​ arms and​ put​ her​ gently​ on​ the​ ground.
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 63-64  | Added on Monday, 9 October 17 09:10:53 GMT+00:59
-
-It​ took​ another​ couple​ of​ weeks​ and​ her​ body​ covered​ completely.
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 71  | Added on Monday, 9 October 17 09:11:15 GMT+00:59
-
-my​ his​ room.​
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 74  | Added on Monday, 9 October 17 09:11:36 GMT+00:59
-
-‘You​ still​ have​ me,​ I​ told​ him.​
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 80  | Added on Monday, 9 October 17 09:11:57 GMT+00:59
-
-of​
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 83-84  | Added on Monday, 9 October 17 09:12:26 GMT+00:59
-
-Her​ skin,​ got​ ticker and​ ticker​ and​ turned​ into​ a​ bark​ that​ wrapped​ around​ from​
-==========
-In two At your feetV7 (Unknown)
-- Highlight Loc. 93  | Added on Monday, 9 October 17 09:12:56 GMT+00:59
-
-silence.
-==========
-The comet V5 (Unknown)
-- Highlight Loc. 1-2  | Added on Monday, 9 October 17 09:13:37 GMT+00:59
-
-​Nathan​ ​Glow​
-==========
-The comet V5 (Unknown)
-- Highlight Loc. 15  | Added on Monday, 9 October 17 09:14:20 GMT+00:59
-
-​in​
-==========
-The comet V5 (Unknown)
-- Highlight Loc. 33-34  | Added on Monday, 9 October 17 09:15:33 GMT+00:59
-
-Then​ ​Nathan​ ​feels​ ​that​ ​sensation​ ​you​ ​get​ ​on​ ​waking,​ ​when everything​ ​moves​ ​further​ ​away,​
-==========
-The comet V5 (Unknown)
-- Highlight Loc. 49  | Added on Monday, 9 October 17 09:18:49 GMT+00:59
-
-​in​
-==========
-The comet V5 (Unknown)
-- Highlight Loc. 36  | Added on Monday, 9 October 17 09:19:28 GMT+00:59
-
-Malcolm​
-==========
-The comet V5 (Unknown)
-- Highlight Loc. 86  | Added on Monday, 9 October 17 09:21:16 GMT+00:59
-
-​Malcolm,​ ​Nathan​ ​Glow​
-==========
-The comet V5 (Unknown)
-- Highlight Loc. 95  | Added on Monday, 9 October 17 09:22:02 GMT+00:59
-
-​bring​
 ==========
 Articulating Design Decisions (Tom Greever)
 - Highlight Loc. 44-47  | Added on Tuesday, 5 December 17 22:13:26 GMT+00:59
@@ -1852,11 +1517,6 @@ The Undoing Project: A Friendship That Changed Our Minds (Michael Lewis)
 - Highlight Loc. 4806-11  | Added on Monday, 20 August 18 18:02:06 GMT+00:59
 
 To forestall his book’s publication he paid a friend to find people who might convince him not to publish it. After its publication, when it landed on the New York Times bestseller list, he bumped into another friend, who later described what must be the oddest response any author has ever had to his own success. “You’ll never believe what happened,” said Danny incredulously. “Those people at the New York Times made a mistake and put my book on the bestseller list!” A few weeks later, he bumped into the same friend. “It’s unbelievable what is going on,” said Danny. “Because those people at the New York Times made that mistake and put my book on their bestseller list, they’ve had to keep it there!”
-==========
-[Frank_O'Hara]_Selected_Poems(b-ok.org) (duncan@suttree.com)
-- Bookmark Loc. 4  | Added on Tuesday, 13 November 18 18:51:13 GMT+00:59
-
-
 ==========
 Mortal Engines (Stanislaw Lem)
 - Highlight Loc. 110-11  | Added on Thursday, 15 November 18 19:19:49 GMT+00:59
