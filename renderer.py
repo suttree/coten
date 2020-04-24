@@ -38,12 +38,11 @@ def create(quote):
   #img.fill_text_box((30, inky_display.HEIGHT - 40), meta_line, box_width=320, box_height=30, font_filename=font)
   img.write_text_box((30, inky_display.HEIGHT - 30), meta_line, box_width=320, font_filename=font, font_size=12, place='right')
 
-  filename = '/home/pi/src/coten/images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
+  filename = '/home/pi/src/coten/images/coten.png'
   img.save(filename)
 
   img = Image.open(filename)
   img = img.quantize()
-
 
   inky_display.set_image(img)
   inky_display.set_border(inky_display.WHITE)
