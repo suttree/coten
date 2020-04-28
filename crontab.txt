@@ -21,4 +21,8 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 #
 # m h  dom mon dow   command
+@reboot /usr/bin/env python3 /home/pi/src/coten/coten.py >> /tmp/cron.log
 */10 * * * * /usr/bin/env python3 /home/pi/src/coten/coten.py >> /tmp/cron.log
+
+* */30 * * * cd /home/pi/src/coten && git pull >> /tmp/cron.log 2>&1
+
