@@ -48,46 +48,124 @@ def create(quote):
   inky_display.set_border(inky_display.WHITE)
   inky_display.show()
 
+# Adapted from the Pimoroni inkyWhat examples: https://github.com/pimoroni/inky
+def create_pimoroni(quote):
+	import argparse
+	import random
+	import sys
 
+	from inky import InkyWHAT
 
+	from PIL import Image, ImageFont, ImageDraw
+	from font_source_serif_pro import SourceSerifProSemibold
+	from font_source_sans_pro import SourceSansProSemibold
+	
+	# Set up the correct display and scaling factors
+	inky_display = InkyWHAT('black')
+	inky_display.set_border(inky_display.WHITE)
+	# inky_display.set_rotation(180)
 
-def create_old(quote):
-  # From https://stackoverflow.com/questions/4902198/pil-how-to-scale-text-size-in-relation-to-the-size-of-the-image
-  from PIL import ImageFont, ImageDraw, Image
+	w = inky_display.WIDTH
+	h = inky_display.HEIGHT
 
-  image = Image.open('templates/coten.png')
-  draw = ImageDraw.Draw(image)
+	# Create a new canvas to draw on
+	img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
+	draw = ImageDraw.Draw(img)
 
-  txt = quote[0]
-  author = quote[1]
-  title = quote[2]
+	# Load the fonts
+	font_size = 24
+	author_font_size = 18
 
-  fontsize = 1  # starting font size
+	quote_font = ImageFont.truetype(SourceSansProSemibold, font_size)
+	author_font = ImageFont.truetype(SourceSerifProSemibold, author_font_size)
 
-  import textwrap
-  lines = textwrap.wrap(txt, width=20)
+	# The amount of padding around the quote. Note that
+	# a value of 30 means 15 pixels padding left and 15
+	# pixels padding right.
+	#
+	# Also define the max width and height for the quote.
 
-  # portion of image width you want text width to be
-  img_fraction = 0.5
+	padding = 50
+	max_width = w - padding
+	max_height = h - padding - author_font.getsize("ABCD ")[1]
 
-  font = ImageFont.truetype("/Library/Fonts/Arial.ttf", fontsize)
-  while font.getsize(lines[0])[0] < img_fraction*image.size[0]:
-      # iterate until the text size is just larger than the criteria
-      fontsize += 1
-      font = ImageFont.truetype("/Library/Fonts/Arial.ttf", fontsize)
+	below_max_length = False
 
-  # de-increment to be sure it is less than criteria
-  fontsize -= 1
-  font = ImageFont.truetype("/Library/Fonts/Arial.ttf", fontsize)
+	# Only pick a quote that will fit in our defined area
+	# once rendered in the font and size defined.
 
-  print('final font size', fontsize)
+	while not below_max_length:
+			reflowed = reflow_quote(quote, max_width, quote_font)
+			p_w, p_h = quote_font.getsize(reflowed)  # Width and height of quote
+			p_h = p_h * (reflowed.count("\n") + 1)   # Multiply through by number of lines
 
-  text = textwrap.fill(txt, width=20)
+			if p_h < max_height:
+					below_max_length = True              # The quote fits! Break out of the loop.
 
-  # draw.text((200, 200), text, font=font, fill="Black")
-  # draw.text((10, 25), txt, font=font)
+			else:
+					font_size = font_size - 1
+					author_font_size = author_font_size - 1
 
-  "\n".join(textwrap.wrap(txt, width=40))
-  draw.text((200, 200), txt, font=font, fill="Black")
+					quote_font = ImageFont.truetype(SourceSansProSemibold, font_size)
+					author_font = ImageFont.truetype(SourceSerifProSemibold, author_font_size)
 
-  image.save('images/coten-%s.png' %datetime.now().strftime('%d-%m-%Y-%H-%M-%S')) # save it
+					continue
+
+	# x- and y-coordinates for the top left of the quote
+
+	quote_x = (w - max_width) / 2
+	quote_y = ((h - max_height) + (max_height - p_h - author_font.getsize("ABCD ")[1])) / 2
+
+	# x- and y-coordinates for the top left of the author
+
+	author_x = quote_x
+	author_y = quote_y + p_h
+
+	author = quote[1] + ', ' + quote[2]
+
+	# Draw red rectangles top and bottom to frame quote
+	#
+	#draw.rectangle((padding / 4, padding / 4, w - (padding / 4), quote_y - (padding / 4)), fill=inky_display.RED)
+	#draw.rectangle((padding / 4, author_y + author_font.getsize("ABCD ")[1] + (padding / 4) + 5, w - (padding / 4), h - (padding / 4)), fill=inky_display.RED)
+	#
+	# Add some white hatching to the red rectangles to make
+	# it look a bit more interesting
+	#
+	#hatch_spacing = 12
+	#
+	#for x in range(0, 2 * w, hatch_spacing):
+	#		draw.line((x, 0, x - w, h), fill=inky_display.WHITE, width=3)
+
+	# Write our quote and author to the canvas
+	draw.multiline_text((quote_x, quote_y), reflowed, fill=inky_display.BLACK, font=quote_font, align="left")
+	draw.multiline_text((author_x, author_y), author, fill=inky_display.RED, font=author_font, align="right")
+
+	print(reflowed + "\n" + author + "\n")
+
+	# Display the completed canvas on Inky wHAT
+
+	inky_display.set_image(img)
+	inky_display.show()
+
+# This function will take a quote as a string, a width to fit
+# it into, and a font (one that's been loaded) and then reflow
+# that quote with newlines to fit into the space required.
+def reflow_quote(quote, width, font):
+	words = quote[0].split(" ")
+	reflowed = '"'
+	line_length = 0
+
+	for i in range(len(words)):
+			word = words[i] + " "
+			word_length = font.getsize(word)[0]
+			line_length += word_length
+
+			if line_length < width:
+					reflowed += word
+			else:
+					line_length = word_length
+					reflowed = reflowed[:-1] + "\n  " + word
+
+	reflowed = reflowed.rstrip() + '"'
+
+	return reflowed
