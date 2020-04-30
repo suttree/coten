@@ -119,14 +119,14 @@ def create_pimoroni(quote):
 	author_x = quote_x
 	author_y = quote_y + p_h
 
-	author = quote[1] + ', ' + quote[2]
+	author = [ '— ' + quote[1] + ', ' + quote[2] ]
 	reflowed_author = reflow_quote(author, max_width, author_font)
 
 	# Write our quote and author to the canvas
 	draw.multiline_text((quote_x, quote_y), reflowed, fill=inky_display.BLACK, font=quote_font, align="left")
 	draw.multiline_text((author_x, author_y), reflowed_author, fill=inky_display.BLACK, font=author_font, align="right")
 
-	print(reflowed + "\n" + author + "\n")
+	print(reflowed + "\n" + reflowed_author + "\n")
 
 	# Display the completed canvas on Inky wHAT
 	inky_display.set_image(img)
@@ -149,7 +149,7 @@ def reflow_quote(quote, width, font):
 					reflowed += word
 			else:
 					line_length = word_length
-					reflowed = reflowed[:-1] + "\n  " + word
+					reflowed = reflowed[:-1] + "\n" + word
 
 	reflowed = reflowed.rstrip() + ''
 
