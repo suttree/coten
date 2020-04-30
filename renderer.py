@@ -112,38 +112,23 @@ def create_pimoroni(quote):
 					continue
 
 	# x- and y-coordinates for the top left of the quote
-
 	quote_x = (w - max_width) / 2
 	quote_y = ((h - max_height) + (max_height - p_h - author_font.getsize("ABCD ")[1])) / 2
 
 	# x- and y-coordinates for the top left of the author
-
 	author_x = quote_x
 	author_y = quote_y + p_h
 
 	author = quote[1] + ', ' + quote[2]
-
-	# Draw red rectangles top and bottom to frame quote
-	#
-	#draw.rectangle((padding / 4, padding / 4, w - (padding / 4), quote_y - (padding / 4)), fill=inky_display.RED)
-	#draw.rectangle((padding / 4, author_y + author_font.getsize("ABCD ")[1] + (padding / 4) + 5, w - (padding / 4), h - (padding / 4)), fill=inky_display.RED)
-	#
-	# Add some white hatching to the red rectangles to make
-	# it look a bit more interesting
-	#
-	#hatch_spacing = 12
-	#
-	#for x in range(0, 2 * w, hatch_spacing):
-	#		draw.line((x, 0, x - w, h), fill=inky_display.WHITE, width=3)
+	reflowed_author = reflow_quote(author, max_width, author_font)
 
 	# Write our quote and author to the canvas
 	draw.multiline_text((quote_x, quote_y), reflowed, fill=inky_display.BLACK, font=quote_font, align="left")
-	draw.multiline_text((author_x, author_y), author, fill=inky_display.RED, font=author_font, align="right")
+	draw.multiline_text((author_x, author_y), reflowed_author, fill=inky_display.BLACK, font=author_font, align="right")
 
 	print(reflowed + "\n" + author + "\n")
 
 	# Display the completed canvas on Inky wHAT
-
 	inky_display.set_image(img)
 	inky_display.show()
 
@@ -152,7 +137,7 @@ def create_pimoroni(quote):
 # that quote with newlines to fit into the space required.
 def reflow_quote(quote, width, font):
 	words = quote[0].split(" ")
-	reflowed = '"'
+	reflowed = ''
 	line_length = 0
 
 	for i in range(len(words)):
@@ -166,6 +151,6 @@ def reflow_quote(quote, width, font):
 					line_length = word_length
 					reflowed = reflowed[:-1] + "\n  " + word
 
-	reflowed = reflowed.rstrip() + '"'
+	reflowed = reflowed.rstrip() + ''
 
 	return reflowed
