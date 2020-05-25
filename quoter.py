@@ -118,7 +118,7 @@ def fetch_kindle():
 
   # Pick a random quote
   import random
-  q = random.choice(note_hashes)
+  q = random.choice( random.shuffle(note_hashes) )
 
   # Find the book metadata
   key = False
