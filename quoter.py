@@ -8,8 +8,7 @@ from datetime import datetime, timedelta, timezone
 
 def fetch_kindle():
   # Clippings parser from https://github.com/lvzon/kindle-clippings/blob/master/extract-kindle-clippings.py
-  #infile = '/home/pi/src/coten/My_Clippings.txt'
-  infile = "./My_Clippings.txt"
+  infile = '/home/pi/src/coten/My_Clippings.txt'
 
   note_sep = '=========='
 
@@ -118,21 +117,19 @@ def fetch_kindle():
   #import pdb; pdb.set_trace()
 
   # Pick a random quote
-  import random
 
-  # read hash file
-  # if empty, shuffle note_hashes 
-  # pick random hash
-  # pick quote from hash
-  # remove has from list
-  # overwrite back to hash file
-  # TODO: set the file paths correctly
 
   # This is a hat ontop of a hat, in terms of hack - DG 23/6/20
+  # Shuffle the list of quotes, store a list of pointers in a file, and 
+  # work through the pointers until we need to reset
+  # TODO: set the file paths correctly
+  import random
   import marshal
 
+  random.shuffle(note_hashes)
+
   try:
-      nhashes = open('./note_hashes.dat', 'rb+')
+      nhashes = open('/home/pi/src/coten/note_hashes.dat', 'rb+')
       nh = marshal.load(nhashes)
       nhashes.close()
   except (EOFError, FileNotFoundError):
@@ -141,16 +138,11 @@ def fetch_kindle():
 
   # If it's empty, we'll also write/create the file later
   if len(nh) == 0:
-      #marshal.dump(note_hashes, nhashes)
-      #nh = marshal.load(nhashes)
       nh = note_hashes
 
-  pp.pprint(nh)
-  pp.pprint( len(nh)) 
+  q = random.choice( random.sample(nh, 1) )
 
-  q = random.choice( random.sample(nh, len(nh)) )
-
-  pp.pprint(q)
+  pp.pprint(len(nh))
   nh.remove(q)
   pp.pprint(len(nh))
 
