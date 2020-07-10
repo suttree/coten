@@ -117,8 +117,38 @@ def fetch_kindle():
   #import pdb; pdb.set_trace()
 
   # Pick a random quote
+
+
+  # This is a hat ontop of a hat, in terms of hack - DG 23/6/20
+  # Shuffle the list of quotes, store a list of pointers in a file, and 
+  # work through the pointers until we need to reset
+  # TODO: set the file paths correctly
   import random
-  q = random.choice( random.sample(note_hashes, len(note_hashes)) )
+  import marshal
+
+  random.shuffle(note_hashes)
+
+  try:
+      nhashes = open('/home/pi/src/coten/note_hashes.dat', 'rb+')
+      nh = marshal.load(nhashes)
+      nhashes.close()
+  except (EOFError, FileNotFoundError):
+      # If it doesn't exist, we'll write/create the file later
+      nh = note_hashes
+
+  # If it's empty, we'll also write/create the file later
+  if len(nh) == 0:
+      nh = note_hashes
+
+  q = random.choice( random.sample(nh, 1) )
+
+  pp.pprint(len(nh))
+  nh.remove(q)
+  pp.pprint(len(nh))
+
+  nhashes = open('./note_hashes.dat', 'wb+')
+  marshal.dump(nh, nhashes)
+  nhashes.close()
 
   # Find the book metadata
   key = False
@@ -127,6 +157,7 @@ def fetch_kindle():
           if i == q:
               key = k
 
+  pp.pprint(q)
   pp.pprint(notes[q])
   pp.pprint(pub_author[key])
   pp.pprint(pub_title[key])
