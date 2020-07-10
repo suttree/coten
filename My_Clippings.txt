@@ -1249,19 +1249,9 @@ CUNNING PLANS: Talks By Warren Ellis (Warren Ellis)
 Creating new things for a new world. Post-modernism, which has probably lasted longer than modernism, is the process of interrogating the aesthetic discourse. Disrupting the narrative. Modernism says that things can be right. Post-modernism says that nothing can be right. So if you ever wonder why nothing new ever seems to happen any more, find a post-modernist and beat the shit out of then. 
 ==========
 Flash Boys: A Wall Street Revolt (Michael Lewis)
-- Highlight Loc. 288-95  | Added on Thursday, 21 January 16 17:39:03 GMT+00:59
-
-The day after Spread Networks acquired lifetime rights to a ten-foot-wide path under the wire rope factory’s parking lot, it sent out its first press release: “Round-trip travel time from Chicago to New Jersey has been cut to 13 milliseconds.” They’d set a goal of coming in at under 840 miles and beaten it; the line was 827 miles long. “It was the biggest what-the-fuck moment the industry had had in some time,” said Spivey. Even then, none of the line’s creators knew for sure how the line would be used. The biggest question about the line—Why?—remained imperfectly explored. All its creators knew was that the Wall Street people who wanted it wanted it very badly—and also wanted to find ways for others not to have it. In one of his first meetings with a big Wall Street firm, Spivey had told the firm’s boss the price of his line: $10.6 million plus costs if he paid up front, $20 million or so if he paid in installments. The boss said he’d like to go away and think about it. He returned with a single question: “Can you double the price?”
-==========
-Flash Boys: A Wall Street Revolt (Michael Lewis)
 - Highlight Loc. 688-92  | Added on Monday, 25 January 16 12:06:43 GMT+00:59
 
 The discovery of Thor was not the end of a story; it was closer to a beginning. Brad and his team were building a mental picture of the financial markets after the crisis. The market was now a pure abstraction. It called to mind no obvious picture to replace the old one that people still carried around in their heads. The same old ticker tape ran across the bottom of television screens—even though it represented only a tiny fraction of the actual trading. Market experts still reported from the floor of the New York Stock Exchange, even though trading no longer happened there.
-==========
-Flash Boys: A Wall Street Revolt (Michael Lewis)
-- Highlight Loc. 1639-48  | Added on Monday, 25 January 16 15:46:19 GMT+00:59
-
-The LinkedIn searches became a new obsession. The former Madoff employee’s profile led him to the people who worked for the former Madoff employee, who led him to the people who worked for them, and so on. Even as Credit Suisse tried to appear as if it had nothing to do with high-frequency trading, its employees begged to differ. Schwall dug out dozens of examples of Credit Suisse’s computer programmers boasting on their résumés about “building high-frequency trading platforms” and “implementing high-frequency trading strategy,” or of experience as a “quantitative trader on equity and equity derivatives: high-frequency trading.” One guy explained that he had “managed on-boarding of all high-frequency clients to Crossfinder.” Another said he had built the Credit Suisse Crossfinder dark pool and now worked in high-frequency trading market making. Credit Suisse claimed that its dark pool had nothing to do with high-frequency trading, and yet it somehow employed, in and around its dark pool, a mother lode of high-frequency trading talent. By the time he’d finished, Schwall had built the entire Credit Suisse dark pool organization chart. “He’s got these people charts,” said Brad incredulously. “It’s like one of those FBI boards, with the drug kingpins.”
 ==========
 Flash Boys: A Wall Street Revolt (Michael Lewis)
 - Highlight Loc. 1659-60  | Added on Monday, 25 January 16 15:46:51 GMT+00:59
