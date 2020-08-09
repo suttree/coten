@@ -1,6 +1,15 @@
-# coten
+# Coten
 
-# .plan:
+Showing a selection of quotes, taken from your saved Kindle clippings, and displayed on an e-ink screen.
+
+Using eink screens in home devices like Coten helps to avoid the magnetism of another screen in your house.
+
+Eink screens work well for passive, glancing-based home technology, like Coten.
+
+![Image of Coten](https://github.com/suttree/coten/blob/master/coten.jpg?raw=true)
+---
+
+## .plan:
 - Using code from https://github.com/lvzon/kindle-clippings/blob/master/extract-kindle-clippings.py
 -   Open kindle quote file
 -       Shuffle list and iterate through
