@@ -44,7 +44,6 @@ def create(quote):
   img = Image.open(filename)
   img = img.quantize()
 
-  inky_display.clear()
   inky_display.set_image(img)
   inky_display.set_border(inky_display.WHITE)
   inky_display.show()
@@ -130,7 +129,6 @@ def create_pimoroni(quote):
 	print(reflowed + "\n" + reflowed_author + "\n")
 
 	# Display the completed canvas on Inky wHAT
-	inky_display.clear()
 	inky_display.set_image(img)
 	inky_display.show()
 
