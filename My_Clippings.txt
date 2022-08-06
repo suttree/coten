@@ -1568,3 +1568,10 @@ Disunited Nations (Peter Zeihan)
 
 The W Bush administration abused the allies, the Obama administration ignored the allies, and the Trump administration insulted the allies.
 ==========
+Code Complete (Steve McConnell)
+- Highlight Loc. 0-1  | Added on Tuesday, 26 July 22 09:29:57 GMT+00:59
+
+The information contained in a program is denser than the information contained in most books. Whereas you might read and understand a page of a book in a minute or two, most programmers can’t read and understand a naked program listing at anything close to that rate. A program should give more organisational clues than a book, not fewer.
+
+The smaller part of the job of programming is writing a program so that the computer can read it; the larger part is writing it so that other humans can read it.
+==========
