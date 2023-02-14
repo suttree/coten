@@ -30,7 +30,7 @@ def create(quote):
   #font = "/home/pi/.fonts/AmaticSC-Regular.ttf"
 
   #font = "/home/pi/.fonts/Roboto-Regular.ttf"
-  font = ImageFont.truetype("/home/pi/.fonts/Roboto-Bold.ttf",14)
+  font = ImageFont.truetype("/home/pi/.fonts/Roboto-Bold.ttf", 14)
 
   img = ImageText((400, 300), background=(255, 255, 255))
 
