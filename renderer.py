@@ -18,7 +18,7 @@ def create(quote):
   title = quote[2]
 
   #font = "/usr/share/fonts/truetype/freefont/FreeMono.ttf"
-  font = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
+  #font = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
   #font = "/home/pi/.fonts/Roboto-Bold.ttf"
 
   #font = "/home/pi/.fonts/Bitter-Regular.otf"
@@ -26,8 +26,11 @@ def create(quote):
   #font = "/home/pi/.fonts/Bookerly/Bookerly-Regular.ttf"
   #font = "/home/pi/.fonts/static/PlayfairDisplay-Regular.ttf"
   #font = "/home/pi/.fonts/PlayfairDisplay-VariableFont_wght.ttf"
-  font = "/home/pi/.fonts/FredokaOne-Regular.ttf"
+  #font = "/home/pi/.fonts/FredokaOne-Regular.ttf"
   #font = "/home/pi/.fonts/AmaticSC-Regular.ttf"
+
+  #font = "/home/pi/.fonts/Roboto-Regular.ttf"
+  font = ImageFont.truetype("/home/pi/.fonts/Roboto-Bold.ttf", 14)
 
   img = ImageText((400, 300), background=(255, 255, 255))
 
